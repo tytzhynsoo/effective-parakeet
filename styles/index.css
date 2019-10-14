@@ -1,0 +1,163 @@
+.logo-item
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+   }
+
+.button {
+    color: #007bff;
+    border-color: #007bff;
+}
+.nav-list-group
+{
+    list-style: none;
+    overflow: hidden;
+       }
+.nav-list-group .nav-items
+{
+    float: right; /* Выстраивание элементов списка в один ряд. */
+    margin-right: 9px; /* создание отступов для того, чтобы не сливались пункты меню. */
+    margin-top: 1px;
+    font-family: Arial Black; /* Указание типа шрифта. */
+    font-size: 14px; /* Размер текста в ссылках. */
+    padding-top: 0px;
+}
+
+.nav-list-grop .nav-items .a {
+    display: inline-flex; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+    padding: 7px 4px;  /* Внутри блочные отступы. */
+    background: #ff666e; /* Цвет блоков меню. */
+    color: #000000; /* Цвет текста в блоках меню. */
+    text-decoration: none; /* Устранение подчёркивания ссылок. */
+   }
+
+.nav li a:hover
+{
+    background: #7ef3ff; /* Цвет блока при наведении курсора. */
+    color: #000000;  /* Цвет текста при наведении курсора. */
+}
+
+H2 {
+    text-align: center;
+    text-decoration: none;
+    color: #2b242f;
+}
+.lead
+{
+    text-align: center;
+    text-decoration: none;
+    color: #2b242f;
+}
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.centralisation
+{
+text-align: center
+}
+
+.every-shadow
+{border: black; /* Параметры границы */
+    background: #f7ffe6; /* Цвет фона */
+    display: inline-block;
+    text-align: center;
+    min-width: 220px;
+}
+.card-header
+{
+    outline: 0,5px solid #000; /* Параметры границы */
+    background: #cdcece; /* Цвет фона */
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.bigtext
+{
+    text-align: center;
+    color: #2b242f
+}
+.price
+{
+    font-size: 30px;
+    color: #2b242f
+
+}
+.muted
+{
+   font-size: 15px;
+    color: #2b242f;
+}
+li
+{
+    list-style-type: none;
+    color: #2b242f
+}
+.btn-outline-primary
+{
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-group-lg>.btn, .btn-lg
+{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn-primary
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.card-body
+{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.border-top
+{
+    border-top: 1px solid #dee2e6!important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section
+{
+    display: block;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.down_list
+{
+   flex-basis: 0;
+   flex-grow: 1;
+   max-width: 100%;
+}
+.listtext
+{
+    padding-left: 0;
+    list-style: none;
+}
+.cut-line
+{
+    color: #cdcece;
+}
+.a
+{
+    text-decoration: none;
+}
